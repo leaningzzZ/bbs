@@ -6,7 +6,7 @@ export default {
   data() {
     return {
       loading: true,
-      a: { pageSize: 10, userMsg: this.$store.state.userMsg }
+      a: { currentPage: 1, userMsg: this.$store.state.userMsg }
     };
   },
   methods: {
