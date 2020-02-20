@@ -16,8 +16,7 @@
 <script>
 export default {
   data() {
-    return {
-    };
+    return {};
   },
   methods: {
     handleSelect(key) {
